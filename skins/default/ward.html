@@ -11,5 +11,5 @@
 <!--@elseif($widget_info->is_Member == 'A')-->
 <a id="ggward_btn" href="#" class="xet_btn medium asbestos">현재 {$widget_info->is_Count} 와드</a>
 <a id="ggward_btn" href="#" onclick="javascript:if(confirm('정말 와드를 제거 하시겠습니까?')) document.location.href='{getUrl('','mid',$mid,'ggstatus','ggward_delete','document_srl',Context::get('document_srl'),'comment_srl',Context::get('comment_srl'))}'; else return false;" class="xet_btn medium red">{$widget_info->after_btn_name}</a>
-<!--@endif-->
+<!--@end-->
 </div>

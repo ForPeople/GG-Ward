@@ -78,7 +78,7 @@ class ggward extends WidgetHandler {
 		Context::set('widget_info', $args);
 
 		$tpl_path = sprintf('%sskins/%s', $this->widget_path, $args->skin);
-		$tpl_file = 'list';
+		$tpl_file = 'ward';
 		$oTemplate = &TemplateHandler::getInstance();
 		return $oTemplate->compile($tpl_path, $tpl_file);
 	}
