@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* ver 0.2 */
+
+/* button 
+---------------------------------------------- */
+.button, /* 주소 검색 버튼용 */
+.xet_btn {
+	display: inline-block;
+	zoom: 1; *display: inline;  /* zoom and *display = ie7 hack for display:inline-block */
+	outline: none;
+	cursor:pointer;
+	vertical-align:middle;
+	text-align: center;
+	text-decoration:none !important;
+	margin:0 1px;
+	border:0;
+}
+.big {
+	height:48px !important;
+	line-height:48px !important;
+	font-size:14px !important;	
+	padding:0 20px !important; 
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.large {
+	height:36px !important;
+	line-height:36px !important;
+	font-size:12px !important;	
+	padding:0 16px !important; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.button,  /* 주소 검색 버튼용 */
+.medium {
+	height:28px !important;
+	line-height:28px !important;
+	font-size:12px !important;	
+	padding:0 12px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+input.medium {
+	height:26px;
+}
+.small {
+	height:18px !important;
+	line-height:18px !important;
+	font-size: 11px !important;
+	padding:0 8px !important; 
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* color styles 
+---------------------------------------------- */
+
+/* asbestos */
+.asbestos {
+	color: #fff !important;
+	text-shadow: 0 -1px -1px rgba(255, 255, 255, 0.75);	
+	background: #7f8c8d;
+	
+}
+.asbestos:active,
+.asbestos:hover {
+	background: #8b8b8b;	
+}
+
+ /* red */
+.red {
+	color: #fff !important;
+	background: #c0392b;	
+}
+.red:active,
+.red:hover {
+	background: #D14233;	
+}
+
+/* silver */
+.silver {
+	color: #fff !important;
+	background: #585858;	
+}
+.silver:active,
+.silver:hover {
+	background: #8b8b8b;	
+}
+
+/* turquoise */
+.turquoise {
+	color: #fff !important;
+	background: #1abc9c;	
+}
+.turquoise:active,
+.turquoise:hover {
+	background: #1DD2AF;	
+}
