@@ -3,7 +3,7 @@
 	<title xml:lang="ko">GG 와드 위젯</title>
 	<title xml:lang="en">GG Ward Widget</title>
     <description xml:lang="ko">와드를 선택한 게시물에 댓글이 달리면 메일을 보내줍니다.</description>
-    <version>0.1</version>
+    <version>0.2</version>
     <date>2016-03-07</date>
     <author email_address="xeadmin@forppl.com" link="http://xeadmin.com">
         <name xml:lang="ko">GG</name>
