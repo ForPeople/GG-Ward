@@ -1,8 +1,0 @@
-<query id="deletetWardMember" action="delete">
-    <tables>
-        <table name="ggmailing_boards" />
-    </tables>
-    <conditions>
-        <condition operation="equal" column="ggmailing_board_srl" var="ggmailing_board_srl" notnull="notnull" />
-    </conditions>
-</query>
